@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F29300D8199DD78F00FB5A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29300D7199DD78F00FB5A85 /* AppDelegate.swift */; };
+		F29300DA199DD78F00FB5A85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29300D9199DD78F00FB5A85 /* ViewController.swift */; };
+		F29300DD199DD78F00FB5A85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29300DB199DD78F00FB5A85 /* Main.storyboard */; };
+		F29300DF199DD78F00FB5A85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29300DE199DD78F00FB5A85 /* Images.xcassets */; };
+		F29300EB199DD78F00FB5A85 /* CRMAppSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29300EA199DD78F00FB5A85 /* CRMAppSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F29300E5199DD78F00FB5A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29300CA199DD78F00FB5A85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29300D1199DD78F00FB5A85;
+			remoteInfo = CRMAppSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F29300D2199DD78F00FB5A85 /* CRMAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRMAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29300D6199DD78F00FB5A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29300D7199DD78F00FB5A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F29300D9199DD78F00FB5A85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F29300DC199DD78F00FB5A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F29300DE199DD78F00FB5A85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F29300E4199DD78F00FB5A85 /* CRMAppSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMAppSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29300E9199DD78F00FB5A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29300EA199DD78F00FB5A85 /* CRMAppSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMAppSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F29300CF199DD78F00FB5A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29300E1199DD78F00FB5A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F29300C9199DD78F00FB5A85 = {
+			isa = PBXGroup;
+			children = (
+				F29300D4199DD78F00FB5A85 /* CRMAppSwift */,
+				F29300E7199DD78F00FB5A85 /* CRMAppSwiftTests */,
+				F29300D3199DD78F00FB5A85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F29300D3199DD78F00FB5A85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29300D2199DD78F00FB5A85 /* CRMAppSwift.app */,
+				F29300E4199DD78F00FB5A85 /* CRMAppSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F29300D4199DD78F00FB5A85 /* CRMAppSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F29300D7199DD78F00FB5A85 /* AppDelegate.swift */,
+				F29300D9199DD78F00FB5A85 /* ViewController.swift */,
+				F29300DB199DD78F00FB5A85 /* Main.storyboard */,
+				F29300DE199DD78F00FB5A85 /* Images.xcassets */,
+				F29300D5199DD78F00FB5A85 /* Supporting Files */,
+			);
+			path = CRMAppSwift;
+			sourceTree = "<group>";
+		};
+		F29300D5199DD78F00FB5A85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F29300D6199DD78F00FB5A85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F29300E7199DD78F00FB5A85 /* CRMAppSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F29300EA199DD78F00FB5A85 /* CRMAppSwiftTests.swift */,
+				F29300E8199DD78F00FB5A85 /* Supporting Files */,
+			);
+			path = CRMAppSwiftTests;
+			sourceTree = "<group>";
+		};
+		F29300E8199DD78F00FB5A85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F29300E9199DD78F00FB5A85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F29300D1199DD78F00FB5A85 /* CRMAppSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29300EE199DD78F00FB5A85 /* Build configuration list for PBXNativeTarget "CRMAppSwift" */;
+			buildPhases = (
+				F29300CE199DD78F00FB5A85 /* Sources */,
+				F29300CF199DD78F00FB5A85 /* Frameworks */,
+				F29300D0199DD78F00FB5A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRMAppSwift;
+			productName = CRMAppSwift;
+			productReference = F29300D2199DD78F00FB5A85 /* CRMAppSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F29300E3199DD78F00FB5A85 /* CRMAppSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29300F1199DD78F00FB5A85 /* Build configuration list for PBXNativeTarget "CRMAppSwiftTests" */;
+			buildPhases = (
+				F29300E0199DD78F00FB5A85 /* Sources */,
+				F29300E1199DD78F00FB5A85 /* Frameworks */,
+				F29300E2199DD78F00FB5A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29300E6199DD78F00FB5A85 /* PBXTargetDependency */,
+			);
+			name = CRMAppSwiftTests;
+			productName = CRMAppSwiftTests;
+			productReference = F29300E4199DD78F00FB5A85 /* CRMAppSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29300CA199DD78F00FB5A85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					F29300D1199DD78F00FB5A85 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F29300E3199DD78F00FB5A85 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F29300D1199DD78F00FB5A85;
+					};
+				};
+			};
+			buildConfigurationList = F29300CD199DD78F00FB5A85 /* Build configuration list for PBXProject "CRMAppSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F29300C9199DD78F00FB5A85;
+			productRefGroup = F29300D3199DD78F00FB5A85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F29300D1199DD78F00FB5A85 /* CRMAppSwift */,
+				F29300E3199DD78F00FB5A85 /* CRMAppSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29300D0199DD78F00FB5A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29300DD199DD78F00FB5A85 /* Main.storyboard in Resources */,
+				F29300DF199DD78F00FB5A85 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29300E2199DD78F00FB5A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F29300CE199DD78F00FB5A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29300DA199DD78F00FB5A85 /* ViewController.swift in Sources */,
+				F29300D8199DD78F00FB5A85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29300E0199DD78F00FB5A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29300EB199DD78F00FB5A85 /* CRMAppSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F29300E6199DD78F00FB5A85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29300D1199DD78F00FB5A85 /* CRMAppSwift */;
+			targetProxy = F29300E5199DD78F00FB5A85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F29300DB199DD78F00FB5A85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29300DC199DD78F00FB5A85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F29300EC199DD78F00FB5A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F29300ED199DD78F00FB5A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29300EF199DD78F00FB5A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CRMAppSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F29300F0199DD78F00FB5A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CRMAppSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F29300F2199DD78F00FB5A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CRMAppSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRMAppSwift.app/CRMAppSwift";
+			};
+			name = Debug;
+		};
+		F29300F3199DD78F00FB5A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CRMAppSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRMAppSwift.app/CRMAppSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F29300CD199DD78F00FB5A85 /* Build configuration list for PBXProject "CRMAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29300EC199DD78F00FB5A85 /* Debug */,
+				F29300ED199DD78F00FB5A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29300EE199DD78F00FB5A85 /* Build configuration list for PBXNativeTarget "CRMAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29300EF199DD78F00FB5A85 /* Debug */,
+				F29300F0199DD78F00FB5A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F29300F1199DD78F00FB5A85 /* Build configuration list for PBXNativeTarget "CRMAppSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29300F2199DD78F00FB5A85 /* Debug */,
+				F29300F3199DD78F00FB5A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F29300CA199DD78F00FB5A85 /* Project object */;
+}
