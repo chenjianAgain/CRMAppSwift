@@ -15,6 +15,12 @@
 		7C4101A8199DDED90036E6BC /* UIImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4101A7199DDED80036E6BC /* UIImageUtil.swift */; };
 		7C4101AA199DDEFE0036E6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4101A9199DDEFE0036E6BC /* Main.storyboard */; };
 		7C4101AC199DDF2C0036E6BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4101AB199DDF2C0036E6BC /* AppDelegate.swift */; };
+		7C4101B3199DEB8B0036E6BC /* SSFPasswordGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4101AF199DEB8B0036E6BC /* SSFPasswordGestureView.m */; };
+		7C4101B4199DEB8B0036E6BC /* SSFPasswordGestureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C4101B0199DEB8B0036E6BC /* SSFPasswordGestureView.xib */; };
+		7C4101B5199DEB8B0036E6BC /* SSFPathLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4101B2199DEB8B0036E6BC /* SSFPathLineLayer.m */; };
+		7C4101B7199DEBF60036E6BC /* ZDGesturePasswordSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4101B6199DEBF60036E6BC /* ZDGesturePasswordSettingViewController.swift */; };
+		7C4101B9199DF5370036E6BC /* ZDFirstLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4101B8199DF5370036E6BC /* ZDFirstLoginViewController.swift */; };
+		7C4101BB199DF8350036E6BC /* CJClientStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4101BA199DF8350036E6BC /* CJClientStore.swift */; };
 		F29300DF199DD78F00FB5A85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29300DE199DD78F00FB5A85 /* Images.xcassets */; };
 		F29300EB199DD78F00FB5A85 /* CRMAppSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29300EA199DD78F00FB5A85 /* CRMAppSwiftTests.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +45,14 @@
 		7C4101A7199DDED80036E6BC /* UIImageUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageUtil.swift; sourceTree = "<group>"; };
 		7C4101A9199DDEFE0036E6BC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7C4101AB199DDF2C0036E6BC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C4101AE199DEB8B0036E6BC /* SSFPasswordGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFPasswordGestureView.h; sourceTree = "<group>"; };
+		7C4101AF199DEB8B0036E6BC /* SSFPasswordGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFPasswordGestureView.m; sourceTree = "<group>"; };
+		7C4101B0199DEB8B0036E6BC /* SSFPasswordGestureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSFPasswordGestureView.xib; sourceTree = "<group>"; };
+		7C4101B1199DEB8B0036E6BC /* SSFPathLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFPathLineLayer.h; sourceTree = "<group>"; };
+		7C4101B2199DEB8B0036E6BC /* SSFPathLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFPathLineLayer.m; sourceTree = "<group>"; };
+		7C4101B6199DEBF60036E6BC /* ZDGesturePasswordSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDGesturePasswordSettingViewController.swift; sourceTree = "<group>"; };
+		7C4101B8199DF5370036E6BC /* ZDFirstLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDFirstLoginViewController.swift; sourceTree = "<group>"; };
+		7C4101BA199DF8350036E6BC /* CJClientStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJClientStore.swift; sourceTree = "<group>"; };
 		F29300D2199DD78F00FB5A85 /* CRMAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRMAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29300D6199DD78F00FB5A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F29300DE199DD78F00FB5A85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -97,6 +111,7 @@
 		7C410195199DDEAD0036E6BC /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				7C4101B8199DF5370036E6BC /* ZDFirstLoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -120,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				7C41019A199DDEAD0036E6BC /* ZDSettingsViewController.swift */,
+				7C4101B6199DEBF60036E6BC /* ZDGesturePasswordSettingViewController.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -127,6 +143,7 @@
 		7C41019B199DDEAD0036E6BC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7C4101BC199DF95C0036E6BC /* ViewModels */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -135,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				7C4101A7199DDED80036E6BC /* UIImageUtil.swift */,
+				7C4101BA199DF8350036E6BC /* CJClientStore.swift */,
 			);
 			path = Stores;
 			sourceTree = "<group>";
@@ -142,6 +160,7 @@
 		7C41019D199DDEAD0036E6BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7C4101AD199DEB8B0036E6BC /* SSFGesturePassword */,
 				7C41019E199DDEAD0036E6BC /* SSFLeftRightSwipeCell */,
 			);
 			path = Views;
@@ -155,6 +174,25 @@
 				7C4101A1199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.xib */,
 			);
 			path = SSFLeftRightSwipeCell;
+			sourceTree = "<group>";
+		};
+		7C4101AD199DEB8B0036E6BC /* SSFGesturePassword */ = {
+			isa = PBXGroup;
+			children = (
+				7C4101AE199DEB8B0036E6BC /* SSFPasswordGestureView.h */,
+				7C4101AF199DEB8B0036E6BC /* SSFPasswordGestureView.m */,
+				7C4101B0199DEB8B0036E6BC /* SSFPasswordGestureView.xib */,
+				7C4101B1199DEB8B0036E6BC /* SSFPathLineLayer.h */,
+				7C4101B2199DEB8B0036E6BC /* SSFPathLineLayer.m */,
+			);
+			path = SSFGesturePassword;
+			sourceTree = "<group>";
+		};
+		7C4101BC199DF95C0036E6BC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
 			sourceTree = "<group>";
 		};
 		F29300C9199DD78F00FB5A85 = {
@@ -295,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4101B4199DEB8B0036E6BC /* SSFPasswordGestureView.xib in Resources */,
 				7C4101AA199DDEFE0036E6BC /* Main.storyboard in Resources */,
 				F29300DF199DD78F00FB5A85 /* Images.xcassets in Resources */,
 				7C4101A6199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.xib in Resources */,
@@ -315,9 +354,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4101BB199DF8350036E6BC /* CJClientStore.swift in Sources */,
 				7C4101AC199DDF2C0036E6BC /* AppDelegate.swift in Sources */,
 				7C4101A8199DDED90036E6BC /* UIImageUtil.swift in Sources */,
+				7C4101B7199DEBF60036E6BC /* ZDGesturePasswordSettingViewController.swift in Sources */,
+				7C4101B3199DEB8B0036E6BC /* SSFPasswordGestureView.m in Sources */,
+				7C4101B5199DEB8B0036E6BC /* SSFPathLineLayer.m in Sources */,
 				7C4101A5199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.m in Sources */,
+				7C4101B9199DF5370036E6BC /* ZDFirstLoginViewController.swift in Sources */,
 				7C4101A2199DDEAD0036E6BC /* ZDChancesTableViewController.swift in Sources */,
 				7C4101A4199DDEAD0036E6BC /* ZDSettingsViewController.swift in Sources */,
 				7C4101A3199DDEAD0036E6BC /* ZDTabBarController.swift in Sources */,
