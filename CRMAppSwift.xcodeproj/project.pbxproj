@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F29300D8199DD78F00FB5A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29300D7199DD78F00FB5A85 /* AppDelegate.swift */; };
-		F29300DA199DD78F00FB5A85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29300D9199DD78F00FB5A85 /* ViewController.swift */; };
-		F29300DD199DD78F00FB5A85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29300DB199DD78F00FB5A85 /* Main.storyboard */; };
+		7C4101A2199DDEAD0036E6BC /* ZDChancesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C410193199DDEAD0036E6BC /* ZDChancesTableViewController.swift */; };
+		7C4101A3199DDEAD0036E6BC /* ZDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C410197199DDEAD0036E6BC /* ZDTabBarController.swift */; };
+		7C4101A4199DDEAD0036E6BC /* ZDSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C41019A199DDEAD0036E6BC /* ZDSettingsViewController.swift */; };
+		7C4101A5199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4101A0199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.m */; };
+		7C4101A6199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C4101A1199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.xib */; };
+		7C4101A8199DDED90036E6BC /* UIImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4101A7199DDED80036E6BC /* UIImageUtil.swift */; };
+		7C4101AA199DDEFE0036E6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4101A9199DDEFE0036E6BC /* Main.storyboard */; };
+		7C4101AC199DDF2C0036E6BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4101AB199DDF2C0036E6BC /* AppDelegate.swift */; };
 		F29300DF199DD78F00FB5A85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29300DE199DD78F00FB5A85 /* Images.xcassets */; };
 		F29300EB199DD78F00FB5A85 /* CRMAppSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29300EA199DD78F00FB5A85 /* CRMAppSwiftTests.swift */; };
 /* End PBXBuildFile section */
@@ -25,15 +30,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C410193199DDEAD0036E6BC /* ZDChancesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDChancesTableViewController.swift; sourceTree = "<group>"; };
+		7C410197199DDEAD0036E6BC /* ZDTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDTabBarController.swift; sourceTree = "<group>"; };
+		7C41019A199DDEAD0036E6BC /* ZDSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSettingsViewController.swift; sourceTree = "<group>"; };
+		7C41019F199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFLeftRightSwipeTableViewCell.h; sourceTree = "<group>"; };
+		7C4101A0199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFLeftRightSwipeTableViewCell.m; sourceTree = "<group>"; };
+		7C4101A1199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSFLeftRightSwipeTableViewCell.xib; sourceTree = "<group>"; };
+		7C4101A7199DDED80036E6BC /* UIImageUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageUtil.swift; sourceTree = "<group>"; };
+		7C4101A9199DDEFE0036E6BC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7C4101AB199DDF2C0036E6BC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F29300D2199DD78F00FB5A85 /* CRMAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRMAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29300D6199DD78F00FB5A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F29300D7199DD78F00FB5A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F29300D9199DD78F00FB5A85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F29300DC199DD78F00FB5A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F29300DE199DD78F00FB5A85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F29300E4199DD78F00FB5A85 /* CRMAppSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMAppSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29300E9199DD78F00FB5A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F29300EA199DD78F00FB5A85 /* CRMAppSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMAppSwiftTests.swift; sourceTree = "<group>"; };
+		F29300F4199DD79C00FB5A85 /* CRMAppSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CRMAppSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C410191199DDEAD0036E6BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C410192199DDEAD0036E6BC /* Chances */,
+				7C410194199DDEAD0036E6BC /* Customers */,
+				7C410195199DDEAD0036E6BC /* Login */,
+				7C410196199DDEAD0036E6BC /* Main */,
+				7C410198199DDEAD0036E6BC /* Products */,
+				7C410199199DDEAD0036E6BC /* Settings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7C410192199DDEAD0036E6BC /* Chances */ = {
+			isa = PBXGroup;
+			children = (
+				7C410193199DDEAD0036E6BC /* ZDChancesTableViewController.swift */,
+			);
+			path = Chances;
+			sourceTree = "<group>";
+		};
+		7C410194199DDEAD0036E6BC /* Customers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Customers;
+			sourceTree = "<group>";
+		};
+		7C410195199DDEAD0036E6BC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7C410196199DDEAD0036E6BC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7C410197199DDEAD0036E6BC /* ZDTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7C410198199DDEAD0036E6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		7C410199199DDEAD0036E6BC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7C41019A199DDEAD0036E6BC /* ZDSettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7C41019B199DDEAD0036E6BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7C41019C199DDEAD0036E6BC /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				7C4101A7199DDED80036E6BC /* UIImageUtil.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		7C41019D199DDEAD0036E6BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C41019E199DDEAD0036E6BC /* SSFLeftRightSwipeCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C41019E199DDEAD0036E6BC /* SSFLeftRightSwipeCell */ = {
+			isa = PBXGroup;
+			children = (
+				7C41019F199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.h */,
+				7C4101A0199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.m */,
+				7C4101A1199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.xib */,
+			);
+			path = SSFLeftRightSwipeCell;
+			sourceTree = "<group>";
+		};
 		F29300C9199DD78F00FB5A85 = {
 			isa = PBXGroup;
 			children = (
@@ -75,9 +178,12 @@
 		F29300D4199DD78F00FB5A85 /* CRMAppSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F29300D7199DD78F00FB5A85 /* AppDelegate.swift */,
-				F29300D9199DD78F00FB5A85 /* ViewController.swift */,
-				F29300DB199DD78F00FB5A85 /* Main.storyboard */,
+				7C4101AB199DDF2C0036E6BC /* AppDelegate.swift */,
+				7C4101A9199DDEFE0036E6BC /* Main.storyboard */,
+				7C410191199DDEAD0036E6BC /* Controllers */,
+				7C41019B199DDEAD0036E6BC /* Models */,
+				7C41019C199DDEAD0036E6BC /* Stores */,
+				7C41019D199DDEAD0036E6BC /* Views */,
 				F29300DE199DD78F00FB5A85 /* Images.xcassets */,
 				F29300D5199DD78F00FB5A85 /* Supporting Files */,
 			);
@@ -87,6 +193,7 @@
 		F29300D5199DD78F00FB5A85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F29300F4199DD79C00FB5A85 /* CRMAppSwift-Bridging-Header.h */,
 				F29300D6199DD78F00FB5A85 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -188,8 +295,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F29300DD199DD78F00FB5A85 /* Main.storyboard in Resources */,
+				7C4101AA199DDEFE0036E6BC /* Main.storyboard in Resources */,
 				F29300DF199DD78F00FB5A85 /* Images.xcassets in Resources */,
+				7C4101A6199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +315,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F29300DA199DD78F00FB5A85 /* ViewController.swift in Sources */,
-				F29300D8199DD78F00FB5A85 /* AppDelegate.swift in Sources */,
+				7C4101AC199DDF2C0036E6BC /* AppDelegate.swift in Sources */,
+				7C4101A8199DDED90036E6BC /* UIImageUtil.swift in Sources */,
+				7C4101A5199DDEAD0036E6BC /* SSFLeftRightSwipeTableViewCell.m in Sources */,
+				7C4101A2199DDEAD0036E6BC /* ZDChancesTableViewController.swift in Sources */,
+				7C4101A4199DDEAD0036E6BC /* ZDSettingsViewController.swift in Sources */,
+				7C4101A3199DDEAD0036E6BC /* ZDTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,17 +341,6 @@
 			targetProxy = F29300E5199DD78F00FB5A85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F29300DB199DD78F00FB5A85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F29300DC199DD78F00FB5A85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F29300EC199DD78F00FB5A85 /* Debug */ = {
@@ -324,9 +425,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+				);
 				INFOPLIST_FILE = CRMAppSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CRMAppSwift/CRMAppSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -335,9 +443,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+				);
 				INFOPLIST_FILE = CRMAppSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CRMAppSwift/CRMAppSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -394,6 +508,7 @@
 				F29300F0199DD78F00FB5A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F29300F1199DD78F00FB5A85 /* Build configuration list for PBXNativeTarget "CRMAppSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +517,7 @@
 				F29300F3199DD78F00FB5A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
