@@ -9,13 +9,59 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CRMAppSwift/Controllers/Chances/ZDChancesTableViewController.swift"
-            timestampString = "429780011.764054"
+            filePath = "CRMAppSwift/Controllers/Main/ZDTabBarController.swift"
+            timestampString = "429941543.073941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "numberOfSectionsInTableView(_:)"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CRMAppSwift.ZDTabBarController.viewDidAppear (CRMAppSwift.ZDTabBarController)(Swift.Bool) -&gt; ()"
+                  moduleName = "CRMAppSwift"
+                  urlString = "file:///Users/joseph/Downloads/CRMAppSwift/CRMAppSwift/Controllers/Main/ZDTabBarController.swift"
+                  timestampString = "429942418.508719"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "2896">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CRMAppSwift.ZDTabBarController.viewDidAppear (CRMAppSwift.ZDTabBarController)(Swift.Bool) -&gt; ()"
+                  moduleName = "CRMAppSwift"
+                  urlString = "file:///Users/joseph/Downloads/CRMAppSwift/CRMAppSwift/Controllers/Main/ZDTabBarController.swift"
+                  timestampString = "429942418.508983"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "5188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CRMAppSwift/Controllers/Login/ZDGesturePasswordValidateViewController.swift"
+            timestampString = "429941625.751369"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "passwordGestureViewFinishCheckPassword(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,42 +71,106 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CRMAppSwift/Controllers/Chances/ZDChancesTableViewController.swift"
-            timestampString = "429778230.543289"
+            filePath = "CRMAppSwift/Controllers/Login/ZDGesturePasswordValidateViewController.swift"
+            timestampString = "429941627.798261"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "passwordGestureViewCheckPasswordWrong(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CRMAppSwift/Views/SSFGesturePassword/SSFPasswordGestureView.m"
+            timestampString = "429941685.12068"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "-panGestureHandle:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CRMAppSwift/Views/SSFGesturePassword/SSFPasswordGestureView.m"
+            timestampString = "429941686.882825"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "-panGestureHandle:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CRMAppSwift/Views/SSFGesturePassword/SSFPasswordGestureView.m"
+            timestampString = "429941710.958689"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "-checkGesturePassword"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CRMAppSwift/Views/SSFGesturePassword/SSFPasswordGestureView.m"
+            timestampString = "429941793.057287"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-panGestureHandle:"
             landmarkType = "5">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "CRMAppSwift.ZDChancesTableViewController.viewDidLoad (CRMAppSwift.ZDChancesTableViewController)() -&gt; ()"
+                  symbolName = "-[SSFPasswordGestureView panGestureHandle:]"
                   moduleName = "CRMAppSwift"
-                  urlString = "file:///Users/joseph/Downloads/CRMAppSwift/CRMAppSwift/Controllers/Chances/ZDChancesTableViewController.swift"
-                  timestampString = "429778652.230553"
+                  urlString = "file:///Users/joseph/Downloads/CRMAppSwift/CRMAppSwift/Views/SSFGesturePassword/SSFPasswordGestureView.m"
+                  timestampString = "429942418.587433"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "80">
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "2056">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "CRMAppSwift.ZDChancesTableViewController.viewDidLoad (CRMAppSwift.ZDChancesTableViewController)() -&gt; ()"
+                  symbolName = "-[SSFPasswordGestureView panGestureHandle:]"
                   moduleName = "CRMAppSwift"
-                  urlString = "file:///Users/joseph/Downloads/CRMAppSwift/CRMAppSwift/Controllers/Chances/ZDChancesTableViewController.swift"
-                  timestampString = "429778652.230728"
+                  urlString = "file:///Users/joseph/Downloads/CRMAppSwift/CRMAppSwift/Views/SSFGesturePassword/SSFPasswordGestureView.m"
+                  timestampString = "429942418.587619"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "136">
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "2080">
                </Location>
             </Locations>
          </BreakpointContent>
